@@ -1,0 +1,20 @@
+[
+  {
+    "name": "cta-card",
+    "label": "Call-to-Action Card",
+    "files": ["src/components/composites/CtaCard.tsx"],
+    "dependencies": ["card", "button"]
+  },
+  {
+    "name": "button",
+    "label": "Button",
+    "files": ["src/components/ui/button.tsx"],
+    "dependencies": []
+  },
+  {
+    "name": "card",
+    "label": "Card",
+    "files": ["src/components/ui/card.tsx"],
+    "dependencies": []
+  }
+]
